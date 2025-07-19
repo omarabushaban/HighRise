@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>هاي رايز</title>
+  </head>
+  <body>
+    <section class="top-header flex justify-center p-2">
+      <ul class="flex flex-row gap-12 items-center text-white">
+        <li>
+          <a href="https://www.instagram.com/hrdes_sa/" target="_blank"
+            ><i class="fa-brands fa-instagram text-xl"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/hrdes_sa" target="_blank"
+            ><i class="fa-brands fa-x-twitter text-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:design@highrise.sa"
+            ><i class="fa-solid fa-envelope text-xl"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <header id="header" class="navbar bg-base-100 shadow-sm bg-black px-8 py-4">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="text-white bg-black menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a href="#hero" class="text-white font-semibold text-lg"
+                >الرئيسية</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="text-white font-semibold text-lg"
+                >من نحن</a
+              >
+            </li>
+            <li>
+              <a href="#services" class="text-white font-semibold text-lg"
+                >خدماتنا</a
+              >
+            </li>
+            <li>
+              <a href="#works" class="text-white font-semibold text-lg"
+                >أعمالنا</a
+              >
+            </li>
+            <li>
+              <a href="#testimonials" class="text-white font-semibold text-lg"
+                >آراء عملاؤنا</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://wa.me/966542758732"
+                target="_blank"
+                class="text-white font-semibold text-lg"
+                >طلب إستشارة</a
+              >
+            </li>
+            <li>
+              <a href="#location" class="text-white font-semibold text-lg"
+                >موقعنا</a
+              >
+            </li>
+          </ul>
+        </div>
+        <a href="#header"
+          ><img class="w-40" src="imgs/Full White Logo.png" alt=""
+        /></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <a href="#hero" class="text-white font-semibold text-lg"
+              >الرئيسية</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="text-white font-semibold text-lg">من نحن</a>
+          </li>
+          <li>
+            <a href="#services" class="text-white font-semibold text-lg"
+              >خدماتنا</a
+            >
+          </li>
+          <li>
+            <a href="#works" class="text-white font-semibold text-lg"
+              >أعمالنا</a
+            >
+          </li>
+          <li>
+            <a href="#testimonials" class="text-white font-semibold text-lg"
+              >آراء عملاؤنا</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wa.me/966542758732"
+              target="_blank"
+              class="text-white font-semibold text-lg"
+              >طلب إستشارة</a
+            >
+          </li>
+          <li>
+            <a href="#location" class="text-white font-semibold text-lg"
+              >موقعنا</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn-order" href="https://wa.me/966558032999" target="_blank"
+          >تواصل معنا</a
+        >
+      </div>
+    </header>
+    <!-- hero -->
+    <div id="hero" class="hero relative h-screen text-white overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="imgs/hero.JPG"
+          alt="Background Image"
+          class="object-cover object-center w-full h-full"
+        />
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+      </div>
+
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="relative z-10 flex flex-col justify-center items-center h-full text-center px-8"
+      >
+        <img class="w-90 mb-6" src="imgs/Full White Logo.png" alt="" />
+        <h1
+          class="text-3xl md:text-4xl lg:text-5xl font-semibold leading-relaxed mb-12"
+        >
+          نخلق انسجامًا فريدًا في تصميم المساحات
+        </h1>
+        <a href="#contact">
+          <button class="btn-order w-full lg:w-100">اطلب تصميمك الآن</button></a
+        >
+      </div>
+    </div>
+    <!-- about -->
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="about"
+      class="about flex flex-col justify-between items-center bg-white mb-12 py-12 p-6 lg:p-24"
+    >
+      <div class="top-about flex flex-col items-center text-center gap-4 mb-12">
+        <h1
+          class="text-2xl lg:text-4xl font-semibold text-center mb-6 lg:mb-12"
+        >
+          من نحن
+        </h1>
+        <p class="text-gray-600 lg:text-2xl leading-relaxed text-lg">
+          هاي رايز ستوديو هو استوديو متخصص في التصميم الداخلي المعماري وتنفيذ
+          المساحات السكنية والتجارية باحترافية عالية. نعمل على تحويل الأفكار إلى
+          تصاميم واقعية تعبّر عن ذوق كل عميل، مع الاهتمام بأدق التفاصيل في كل
+          مشروع.
+        </p>
+      </div>
+
+      <h1 class="text-2xl lg:text-4xl font-semibold mb-12">قيمنا</h1>
+      <div
+        class="top grid grid-cols-1 justify-center align-center text-center md:grid-cols-2 lg:grid-cols-4 gap-6"
+      >
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card bg-white shadow-md flex flex-col items-center p-5 gap-2 align-center"
+        >
+          <img class="w-14 h-14 p-2 rounded-xl" src="imgs/quality.png" alt="" />
+          <h3 class="text-xl font-bold mb-2">الجودة</h3>
+          <h3>تقديم أعلى معايير التنفيذ والتشطيب</h3>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+          class="card shadow-md flex flex-col items-center p-5 gap-2 align-center"
+        >
+          <img
+            class="w-14 h-14 p-2 rounded-xl"
+            src="imgs/cooperate.png"
+            alt=""
+          />
+          <h3 class="text-xl font-bold mb-2">الإلتزام</h3>
+          <h3>احترام الجداول الزمنية والمعايير المعنية</h3>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="150"
+          class="card shadow-md flex flex-col items-center p-5 gap-2 align-center"
+        >
+          <img
+            class="w-14 h-14 p-2 rounded-xl"
+            src="imgs/innovation.png"
+            alt=""
+          />
+          <h3 class="text-xl font-bold mb-2">الإبتكار</h3>
+          <h3>حلول تصميمية مبتكرة وغير تقليدية</h3>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          class="card shadow-md flex flex-col items-center p-5 gap-2 align-center"
+        >
+          <img class="w-14 h-14 p-2 rounded-xl" src="imgs/client.png" alt="" />
+          <h3 class="text-xl font-bold mb-2">رضا العميل</h3>
+          <h3>نجاحنا يبدأ برضا عملائنا</h3>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="services"
+      class="services flex flex-col justify-between items-center py-12 p-6 lg:p-24 mb-12"
+    >
+      <h1
+        class="text-2xl lg:text-4xl font-semibold text-center mb-16 text-black"
+      >
+        خدماتنا
+      </h1>
+      <div
+        class="grid grid-cols-1 justify-center align-center text-center gap-6"
+      >
+        <div
+          class="top grid grid-cols-1 justify-center align-center text-center md:grid-cols-1 lg:grid-cols-3 gap-6"
+        >
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+            class="card p-6 shadow-xl flex flex-col gap-4 align-center text-center rounded-xl bg-white"
+          >
+            <i class="fa-solid fa-home text-3xl text-gray-600 mb-2"></i>
+            <h2 class="text-xl font-semibold">
+              التصميم الداخلي السكني <br />
+              Residential Interior Design
+            </h2>
+            <p class="text-gray-600 text-lg leading-8">
+              تصميم الشقق، الفلل، والقصور اختيار المواد والتشطيبات والأثاث
+              بعناية تقديم تصاميم ثلاثية الأبعاد واقعية
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+            class="card p-8 shadow-xl flex flex-col gap-4 align-center text-center p-6 rounded-xl bg-white"
+          >
+            <i class="fa-solid fas fa-building text-3xl text-gray-600 mb-2"></i>
+            <h2 class="text-xl font-semibold">
+              التصميم الداخلي التجاري <br />
+              Commercial Interior Design
+            </h2>
+            <p class="text-gray-600 text-lg leading-8">
+              تصميم المحلات التجارية، المكاتب، والمقاهي تخطيط المساحات لتحقيق
+              الاستخدام الأمثل تعزيز الهوية التجارية من خلال التصميم
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            class="card p-8 shadow-xl flex flex-col gap-4 align-center text-center p-6 rounded-xl bg-white"
+          >
+            <i class="fa-solid fas fa-tree text-3xl text-gray-600 mb-2"></i>
+            <h2 class="text-xl font-semibold">
+              تنسيق الحدائق والمساحات الخارجية <br />
+              Landscape & Outdoor Design
+            </h2>
+            <p class="text-gray-600 text-lg leading-8">
+              تصميم الحدائق والمداخل الخارجية اختيار النباتات، الأرضيات،
+              والإضاءة المناسبة
+            </p>
+          </div>
+        </div>
+        <div
+          class="bottom flex flex-col lg:flex-row justify-center align-center text-center md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="150"
+            class="card lg:w-84 p-8 shadow-xl flex flex-col gap-4 align-center text-center p-6 rounded-xl bg-white"
+          >
+            <i class="fa-solid fas fa-chair text-3xl text-gray-600 mb-2"></i>
+            <h2 class="text-xl font-semibold">
+              التأثيث <br />
+              Furnishing Solutions
+            </h2>
+            <p class="text-gray-600 text-lg leading-8">
+              تأمين أثاث حسب الطلب يناسب المساحة والوظيفة
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            class="card p-8 shadow-xl flex flex-col gap-4 align-center text-center p-6 rounded-xl bg-white"
+          >
+            <i class="fa-solid fas fa-tools text-3xl text-gray-600 mb-2"></i>
+            <h2 class="text-xl font-semibold">
+              إدارة التنفيذ <br />
+              Project Supervision
+            </h2>
+            <p class="text-gray-600 text-lg leading-8">
+              متابعة دقيقة لجميع مراحل التنفيذ
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- work -->
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="works"
+      class="our-work about flex flex-col justify-between text-center items-center bg-white py-10 p-6 lg:p-24"
+    >
+      <h1 class="text-2xl lg:text-4xl font-semibold text-center lg:mb-10 mb-6">
+        أعمالنا
+      </h1>
+      <p class="mb-12 leading-relaxed text-gray-700 text-xl">
+        نقوم بتصميم المساحات التي يحتاجها عملاؤنا حقا. نستمع عن كثب ونتعاون
+        لتحديد أهداف محددة وتقديم المشاريع كما وعدنا، في كل مرة.
+      </p>
+      <div
+        class="cards-work grid grid-cols-1 gap-6 mb-12 lg:grid-cols-3 md:grid-cols-2"
+      >
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card card-img shadow-xl hover:shadow-2xl rounded-xl transition duration-300"
+        >
+          <div class="overflow-hidden rounded-xl">
+            <img
+              class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+              src="imgs/work1.jpg"
+              alt=""
+            />
+            <div
+              class="hide text-black overflow-hidden w-full h-full flex flex-col justify-center align-center text-center"
+            >
+              <h1 class="text-2xl font-semibold mb-2">
+                التصميم والإشراف الداخلي
+              </h1>
+              <p class="text-xl text-gray-700 leading-8">
+                نقوم بتصميم المساحات التي يحتاجها عملاؤنا حقا. نستمع عن كثب
+                ونتعاون لتحديد أهداف محددة وتقديم المشاريع كما وعدنا، في كل مرة.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+          class="card card-tx p-4 flex flex-col shadow-xl rounded-xl bg-white transition duration-300"
+        >
+          <div
+            class="show flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <h1 class="text-2xl font-semibold mb-2">تصميم معماري مبتكر</h1>
+            <p class="text-xl text-gray-700 leading-8">
+              يعكس رؤية العميل بأناقة ودقة لإبداعات مستدامة ومميزة ...
+            </p>
+          </div>
+          <div
+            class="hide flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <p class="text-xl text-white font-semibold leading-8">
+              يعكس رؤية العميل بأناقة ودقة لإبداعات مستدامة ومميزة .دراسة
+              احتياجاتك بدقة
+            </p>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card card-img w-fit h-fit shadow-xl hover:shadow-2xl rounded-xl transition duration-300"
+        >
+          <div class="overflow-hidden rounded-xl">
+            <img
+              class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+              src="imgs/work2.JPG"
+              alt=""
+            />
+            <div
+              class="hide text-black overflow-hidden w-full h-full flex flex-col justify-center align-center text-center"
+            >
+              <h1 class="text-2xl font-semibold mb-2">تخطيط داخلي احترافي</h1>
+              <p class="text-xl text-gray-700 leading-8">
+                يجمع بين الوظيفية والجمال لمسات عصرية تلبي تطلعاتك .تصاميم تناسب
+                أسلوب حياتك
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+          class="card card-tx flex flex-col p-4 shadow-xl rounded-xl bg-white transition duration-300"
+        >
+          <div
+            class="show flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <h1 class="text-2xl font-semibold mb-2">تنفيذ مشاريع معمارية</h1>
+            <p class="text-xl text-gray-700 leading-8">
+              جودة عالية ومواد متينة فريق عمل متميز ....
+            </p>
+          </div>
+          <div
+            class="hide flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <p class="text-xl text-white font-semibold leading-8">
+              بجودة عالية ومواد متينة فريق عمل متميز ومبدع .نتائج تتجاوز توقعاتك
+            </p>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card card-img w-fit h-fit shadow-xl hover:shadow-2xl rounded-xl transition duration-300"
+        >
+          <div class="overflow-hidden rounded-xl">
+            <img
+              class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+              src="imgs/work3.JPG"
+              alt=""
+            />
+            <div
+              class="hide text-black overflow-hidden w-full h-full flex flex-col justify-center align-center text-center"
+            >
+              <h1 class="text-2xl font-semibold mb-2">
+                استشارات معمارية دقيقة
+              </h1>
+              <p class="text-xl text-gray-700 leading-8">
+                تحليل احتياجاتك بعناية حلول مبتكرة ومخصصة .رفع كفاءة مشروعك
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+          class="card card-tx flex flex-col p-4 shadow-xl rounded-xl bg-white transition duration-300"
+        >
+          <div
+            class="show flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <h1 class="text-2xl font-semibold mb-2">تصميم واجهات عصرية</h1>
+            <p class="text-xl text-gray-700 leading-8">تجمع بين الأناقة ....</p>
+          </div>
+          <div
+            class="hide flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <p class="text-xl text-white font-semibold leading-8">
+              تجمع بين الأناقة والتكنولوجيا تصاميم تناسب الطقس والثقافة .إضافة
+              قيمة بصرية
+            </p>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card card-img w-fit h-fit shadow-xl hover:shadow-2xl rounded-xl transition duration-300"
+        >
+          <div class="overflow-hidden rounded-xl">
+            <img
+              class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+              src="imgs/work4.jpg"
+              alt=""
+            />
+            <div
+              class="hide text-black overflow-hidden w-full h-full flex flex-col justify-center align-center text-center"
+            >
+              <h1 class="text-2xl font-semibold mb-2">إدارة مشاريع بناء</h1>
+              <p class="text-xl text-gray-700 leading-8">
+                من التخطيط إلى التنفيذ متابعة دقيقة وشفافة .نجاح مضمون لكل خطوة
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+          class="card card-tx flex flex-col p-4 shadow-xl rounded-xl bg-white transition duration-300"
+        >
+          <div
+            class="show flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <h1 class="text-2xl font-semibold mb-2">تصميم مكاتب وفنادق</h1>
+            <p class="text-xl text-gray-700 leading-8">
+              بأسلوب عملي ومبدع يعزز الإنتاجية ....
+            </p>
+          </div>
+          <div
+            class="hide flex flex-col align-center text-center justify-center gap-2 p-4 rounded-xl w-full h-full"
+          >
+            <p class="text-xl text-white font-semibold leading-8">
+              بأسلوب عملي ومبدع يعزز الإنتاجية والراحة .مساحات تعكس هويتك
+            </p>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card card-img w-fit h-fit shadow-xl hover:shadow-2xl rounded-xl transition duration-300"
+        >
+          <div class="overflow-hidden rounded-xl">
+            <img
+              class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+              src="imgs/work6.jpg"
+              alt=""
+            />
+            <div
+              class="hide text-black overflow-hidden w-full h-full flex flex-col justify-center align-center text-center"
+            >
+              <h1 class="text-2xl font-semibold mb-2">تصميم غرف نوم فاخرة</h1>
+              <p class="text-xl text-gray-700 leading-8">
+                تجمع بين الراحة والأناقة تصاميم مخصصة تناسب ذوقك .مساحة هادئة
+                للاسترخاء
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      class="order flex flex-col lg:flex-row gap-4 justify-around items-center py-12 p-6 lg:p-24"
+    >
+      <h1
+        class="leading-relaxed text-2xl lg:text-4xl font-semibold text-center m-0"
+      >
+        من فكرة إلى تنفيذ ... نبتكر لك كل التفاصيل
+      </h1>
+    </section>
+
+    <!-- img-section -->
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="150"
+      class="img-section relative text-white lg:p-24 p-6 py-12 overflow-hidden bg-white"
+    >
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="50"
+        class="max-w-6xl mx-auto flex flex-col gap-12 lg:flex-row items-center md:items-center justify-between"
+      >
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="150"
+          class="w-full mb-0"
+        >
+          <img
+            src="imgs/work6.JPG"
+            alt="Our Work"
+            class="rounded-lg shadow-lg object-cover w-full h-full"
+          />
+        </div>
+        <div class="w-full text-center lg:text-right">
+          <h2
+            class="text-2xl lg:text-4xl font-semibold mb-4 text-black leading-relaxed"
+          >
+            حول منزلك إلى قطعة فنية مع مصمم داخلي احترافي
+          </h2>
+          <p class="leading-relaxed text-gray-700">
+            اكتشف أسرار تحويل منزلك إلى لوحة فنية مع مصمم داخلي محترف وخبرات
+            شركة ابتكارات لتحقيق أفضل تصاميم داخلية بأعلى جودة. لماذا التصميم
+            الداخلي مهم؟ عالمنا اليوم لا يقتصر على المباني الوظيفية فقط، بل
+            أصبحنا نهتم بأن تتحول منازلنا إلى مساحات تعكس ذوقنا، شخصيتنا،
+            وتعطينا شعورًا بالراحة
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our clients -->
+    <section
+      class="clients flex flex-col gap-4 lg:gap-8 md:gap-6 p-4 lg:px-24 lg:py-16 md:px-16 flex items-center justify-center"
+    >
+      <h1
+        class="text-2xl lg:text-5xl md:text-2xl lg:mb-4 my-2 font-bold text-gray-900"
+      >
+        عملاءنا 
+      </h1>
+
+      <div class="sections relative w-full overflow-hidden">
+
+        <div
+          class="flex cli lg:p-4 gap-4 lg:px-16 md:px-8 px-2 overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar"
+        >
+          <div
+            class="card flex-none border border-gray-300 w-fit flex flex-col justify-center p-6 lg:p-12 rounded-lg snap-center"
+          >
+          <img class="lg:w-72 w-46" src="imgs/client1.png" alt="">
+          </div>
+          <div
+            class="card flex-none border border-gray-300 w-fit flex flex-col justify-center p-6 lg:p-12 rounded-lg snap-center"
+          >
+          <img class="lg:w-72 w-46" src="imgs/client2.png" alt="">
+          </div>
+          <div
+            class="card flex-none border border-gray-300 w-fit flex flex-col justify-center p-12 rounded-lg snap-center"
+          >
+          <img class="lg:w-72 w-46" src="imgs/client3.png" alt="">
+          </div>
+          <div
+            class="card flex-none border border-gray-300 w-fit flex flex-col justify-center rounded-lg snap-center"
+          >
+          <img class="w-72 h-full rounded-lg" src="imgs/client4.png" alt="">
+          </div>
+          <div
+            class="card flex-none border border-gray-300 p-8 w-fit flex flex-col justify-center rounded-lg snap-center"
+          >
+          <img class="lg:w-72 w-46" src="imgs/client5.png" alt="">
+          </div>
+          <div
+            class="card flex-none border border-gray-300 w-fit flex flex-col justify-center rounded-lg snap-center"
+          >
+          <img class="w-72 h-full" src="imgs/client6.png" alt="">
+          </div>
+
+        </div>
+        
+        <!-- display buttons none -->
+        <div class="btns hidden lg:flex md:flex">
+          <button
+            class="absolute right-2 top-1/2 -translate-y-1/2 bg-blue-500 text-white rounded-lg w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors"
+            onclick="scrollGames(400)"
+          >
+            <i class="fa-solid fa-chevron-right font-bold"></i>
+          </button>
+          <button
+            class="absolute left-2 top-1/2 -translate-y-1/2 bg-blue-500 text-white rounded-lg w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors"
+            onclick="scrollGames(-400)"
+          >
+            <i class="fa-solid fa-chevron-left font-bold"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="150"
+      id="testimonials"
+      class="testimonials lg:p-24 px-6 py-16 bg-white"
+    >
+      <h1 class="text-2xl lg:text-4xl font-semibold text-center lg:mb-18 mb-12">
+        ماذا يقولون عنا
+      </h1>
+      <div class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+          class="card bg-white p-6 rounded-lg shadow-md sm:w-full"
+        >
+          <div class="flex items-center mb-4 justify-between w-full">
+            <div class="right flex items-center">
+              <div>
+                <h4 class="text-md font-bold text-gray-600">
+                  عبدالعزيز الراجحي
+                </h4>
+                <p class="text-gray-500">مصمم جرافيك</p>
+              </div>
+            </div>
+            <div class="star flex items-center gap-2">
+              <p>4.6</p>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed">
+            "تصميم المكتب الجديد فاق التوقعات! الأناقة والعملية في التصميم جعلته
+            مثاليًا للعمل اليومي."
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+          class="card bg-white p-6 rounded-lg shadow-md"
+        >
+          <div class="flex items-center mb-4 justify-between w-full">
+            <div class="right flex items-center">
+              <div>
+                <h4 class="text-md font-bold text-gray-600">رغد فيصل</h4>
+                <p class="text-gray-500">مطور ويب</p>
+              </div>
+            </div>
+            <div class="star flex items-center gap-2">
+              <p>4.0</p>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed">
+            "تصميم غرفة المعيشة كان رائعًا! الاهتمام بالتفاصيل والألوان المختارة
+            أضافا لمسة فخامة لبيتي."
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          class="card bg-white p-6 rounded-lg shadow-md"
+        >
+          <div class="flex items-center mb-4 justify-between w-full">
+            <div class="right flex items-center">
+              <div>
+                <h4 class="text-md font-bold text-gray-600">نورة محمد</h4>
+                <p class="text-gray-500">محاسب</p>
+              </div>
+            </div>
+            <div class="star flex items-center gap-2">
+              <p>4.8</p>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed">
+            "التصميم الداخلي للصالة جعلها مكانًا مثاليًا للتجمعات العائلية.
+            شكرًا على الإبداع!"
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="150"
+          class="card bg-white p-6 rounded-lg shadow-md"
+        >
+          <div class="flex items-center mb-4 justify-between w-full">
+            <div class="right flex items-center">
+              <div>
+                <h4 class="text-md font-bold text-gray-600">عبد الله الشهري</h4>
+                <p class="text-gray-500">مسوق الكتروني</p>
+              </div>
+            </div>
+            <div class="star flex items-center gap-2">
+              <p>5.0</p>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed">
+            "إبداع في تصميم ركن القهوة! الجودة والذوق في التصميم لا يُضاهيان."
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          class="card bg-white p-6 rounded-lg shadow-md"
+        >
+          <div class="flex items-center mb-4 justify-between w-full">
+            <div class="right flex items-center">
+              <div>
+                <h4 class="text-md font-bold text-gray-600">تركي العجمة</h4>
+                <p class="text-gray-500">طبيب أسنان</p>
+              </div>
+            </div>
+            <div class="star flex items-center gap-2">
+              <p>4.2</p>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed">
+            "غرفة الجلوس أصبحت تحفة فنية بفضل التصميم المبتكر. الخطوط العصرية
+            رائعة!"
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="250"
+          class="card bg-white p-6 rounded-lg shadow-md"
+        >
+          <div class="flex items-center mb-4 justify-between w-full">
+            <div class="right flex items-center">
+              <div>
+                <h4 class="text-md font-bold text-gray-600">هديل حسن</h4>
+                <p class="text-gray-500">محلل بيانات</p>
+              </div>
+            </div>
+            <div class="star flex items-center gap-2">
+              <p>4.5</p>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed">
+            "فريق التصميم قدم حلولًا إبداعية لغرفة المعيشة. الجودة والدقة لا
+            تضاهى."
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- location -->
+    <section
+      id="location"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="150"
+      class="location flex flex-col justify-center my-8 bg-white py-8 p-6 lg:p-24"
+    >
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="150"
+        class="text-2xl lg:text-4xl font-semibold text-center lg:mb-18 mb-12"
+      >
+        موقع شركتنا
+      </h2>
+      <div
+        class="w-full rounded-lg mb-6 bg-white"
+      >
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="150"
+          src="imgs/location.png"
+          class="w-full h-full border-2 border-gray-300 rounded-lg"
+          loading="lazy"
+        >
+        </img>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="0"
+      id="contact"
+      class="contact flex flex-col lg:flex-row justify-between items-center lg:m-18 lg:gap-16 p-6 my-8"
+    >
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="0"
+        class="text w-full mb-6 py-8 lg:mb-0"
+      >
+        <h1 class="text-2xl lg:text-4xl font-semibold text-center mb-6">
+          تواصل معنا
+        </h1>
+        <p class="text-lg text-center text-gray-700 leading-relaxed">
+          يمكننا المساعدة في إحياء مشروعك. يرجى ترك رسالة لنا تحتوي على تفاصيل
+          المشروع، وسنتصل بك لتحديد موعد استشارة مجانية.
+        </p>
+      </div>
+      <form
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="0"
+        action="https://getform.io/f/agdlgoxb"
+        method="POST"
+        class="w-full rounded-xl p-6"
+      >
+        <div class="mb-6">
+          <label
+            for="name"
+            class="block mb-4 text-lg font-semibold leading-7 text-gray-600"
+            >الإسم</label
+          >
+          <input
+            placeholder="أدخل إسمك"
+            type="text"
+            id="name"
+            name="name"
+            class="w-full rounded border border-gray-300 bg-white py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          />
+        </div>
+        <div class="mb-6">
+          <label
+            for="email"
+            class="block mb-4 text-lg font-semibold leading-7 text-gray-600"
+            >الإيميل</label
+          >
+          <input
+            placeholder="أدخل الإيميل"
+            type="email"
+            id="email"
+            name="email"
+            class="w-full rounded border border-gray-300 bg-white py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          />
+        </div>
+        <div class="mb-6">
+          <label
+            for="email"
+            class="block mb-4 text-lg font-semibold leading-7 text-gray-600"
+            >رقم الهاتف</label
+          >
+          <input
+            placeholder="أدخل رقم هاتفك"
+            type="number"
+            id="number"
+            name="number"
+            class="w-full rounded border border-gray-300 bg-white py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          />
+        </div>
+        <div class="mb-8">
+          <label
+            for="message"
+            class="block mb-4 text-lg font-semibold leading-7 text-gray-600"
+            >رسالتك</label
+          >
+          <textarea
+            placeholder="اترك رسالتك هنا"
+            type="text"
+            id="message"
+            name="message"
+            class="h-32 w-full resize-none rounded border border-gray-300 bg-white py-1 px-3 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          ></textarea>
+        </div>
+        <input type="hidden" name="_gotcha" style="display: none !important" />
+        <button class="btn-order w-full">أرسلها الآن</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="flex flex-col justify-center items-center pt-12">
+      <ul
+        class="menu menu-horizontal mb-8 gap-4 flex flex-col align-center text-center justify-center md:flex-row lg:flex-row"
+      >
+        <li>
+          <a href="#hero" class="text-gray-700 font-bold text-lg">الرئيسية</a>
+        </li>
+        <li>
+          <a href="#about" class="text-gray-700 font-bold text-lg">من نحن</a>
+        </li>
+        <li>
+          <a href="#services" class="text-gray-700 font-bold text-lg"
+            >خدماتنا</a
+          >
+        </li>
+        <li>
+          <a href="#works" class="text-gray-700 font-bold text-lg">أعمالنا</a>
+        </li>
+        <li>
+          <a href="#testimonials" class="text-gray-700 font-bold text-lg"
+            >آراء عملاؤنا</a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="text-gray-700 font-bold text-lg"
+            >طلب إستشارة</a
+          >
+        </li>
+      </ul>
+      <ul class="flex flex-row gap-4 items-center text-white mb-12">
+        <li>
+          <a href="https://www.instagram.com/hrdes_sa/" target="_blank"
+            ><i class="fa-brands fa-instagram text-2xl text-black"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/hrdes_sa" target="_blank"
+            ><i class="fa-brands fa-x-twitter text-2xl text-black"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:design@highrise.sa" target="_blank"
+            ><i class="fa-solid fa-envelope text-2xl text-black"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="text-center text-gray-700 font-semibold text-lg p-6">
+        جميع الحقوق محفوظة &copy;
+      </p>
+    </footer>
+
+    <div class="float-btns flex flex-col gap-4 z-2">
+      <button
+        class="flex flex-row gap-4 text-center justify-center items-center rounded-2xl bg-black p-4"
+      >
+        <a href="#hero"
+          ><i class="fa-solid fa-arrow-up text-xl text-white"></i
+        ></a>
+      </button>
+      <a href="https://wa.me/966558032999" target="_blank">
+        <button
+          class="flex flex-row gap-4 text-center justify-center items-center rounded-2xl p-4"
+        >
+          <i class="fa-brands fa-whatsapp text-2xl text-white"></i>
+          <!-- <h2 calss="text-white text-lg font-bold">تحدث إلينا الآن</h2> -->
+        </button>
+      </a>
+      <a href="https://wa.me/966558032999" target="_blank">
+        <button
+          class="flex flex-row gap-4 text-center justify-center items-center rounded-2xl p-4"
+        >
+          <!-- mobile -->
+          <i class="fa-solid fa-phone text-xl text-white"></i>
+          <!-- <h2 calss="text-white text-lg font-bold">اتصل بنا الآن</h2> -->
+        </button>
+      </a>
+    </div>
+
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
